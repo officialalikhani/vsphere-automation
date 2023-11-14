@@ -1,25 +1,25 @@
 import atexit, traceback
 from pyVim.connect import SmartConnect, Disconnect
-from .Core.getallvms import main as main_GetVM
-from .Core.create_vm import create_vm as main_CreateVM
-from .Core.add_disk_to_vm import main as main_Add_Disk
-from .Core.add_nic_to_vm import main as main_add_nic
-from .Core.clone_vm import main as main_clone_vm
-from .Core.export_vm import main as main_export
-from .Core.snapshot_operations import main as main_snapshot
-from .Core.deploy_ova import main as main_deploy_ova
-from .Core.deploy_ovf import main as main_deploy_ovf
-from .Core.sessions_list import main as main_sessions
-from .Core.relocate_vm import main as main_relocate_vm
-from .Core.reboot_vm import reboot
-from .Core.vm_power_on import main as main_power_on
-from .Core.get_portgroup import main as main_get_portgroup
-from .Core.add_portgroup_to_vswitch import main as portgroup_to_vswitch
-from .Core.add_vswitch_to_host import main as vswitch_to_host
-from .Core.del_portgroup_from_vswitch import main as del_portgroup_from_vswitch
-from .Core.del_vswitch_from_host import main as del_vswitch_from_host
+from .core.getallvms import main as main_GetVM
+from .core.create_vm import create_vm as main_CreateVM
+from .core.add_disk_to_vm import main as main_Add_Disk
+from .core.add_nic_to_vm import main as main_add_nic
+from .core.clone_vm import main as main_clone_vm
+from .core.export_vm import main as main_export
+from .core.snapshot_operations import main as main_snapshot
+from .core.deploy_ova import main as main_deploy_ova
+from .core.deploy_ovf import main as main_deploy_ovf
+from .core.sessions_list import main as main_sessions
+from .core.relocate_vm import main as main_relocate_vm
+from .core.reboot_vm import reboot
+from .core.vm_power_on import main as main_power_on
+from .core.get_portgroup import main as main_get_portgroup
+from .core.add_portgroup_to_vswitch import main as portgroup_to_vswitch
+from .core.add_vswitch_to_host import main as vswitch_to_host
+from .core.del_portgroup_from_vswitch import main as del_portgroup_from_vswitch
+from .core.del_vswitch_from_host import main as del_vswitch_from_host
 
-class GreenVMware:
+class VMwareAlikhani:
     def __init__(self, Hostadd_, Username_, Password_, Port_):
         self.host = Hostadd_
         self.user = Username_

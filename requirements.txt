@@ -1,2 +1,3 @@
 pyVim
 pyVmomi
+lxml >= 4.3.0

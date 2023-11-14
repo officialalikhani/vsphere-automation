@@ -1,4 +1,4 @@
-# Python vSphere Automation (Version 1.0)
+# Python vSphere Automation (Version 1.0.0)
 
 This repository contains Python code for automating various tasks in VMware vSphere using the vSphere Automation SDK. The code is currently in version 0.9, and it provides a foundation for interacting with vSphere, managing virtual machines, and performing common administrative tasks.
 Prerequisites
@@ -25,12 +25,6 @@ Clone this repository to your local machine:
 git clone https://github.com/officialalikhani/vsphere-automation.git
 ```
 
-## Install the required dependencies:
-
-```bash
-
-pip install -r requirements.txt
-```
 
 ## Features
 
