@@ -1,4 +1,4 @@
-from tools import pchelper, tasks
+from ..tools import pchelper, tasks
 from pyVmomi import vim
 
 

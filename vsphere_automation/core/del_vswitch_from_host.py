@@ -1,4 +1,3 @@
-import sys
 from pyVmomi import vim
 
 def get_vm_hosts(content):

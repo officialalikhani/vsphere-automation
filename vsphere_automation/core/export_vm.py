@@ -4,7 +4,7 @@ import threading
 from time import sleep
 import requests
 from pyVmomi import vim
-from tools import pchelper
+from ..tools import pchelper
 
 # disable  urllib3 warnings
 requests.packages.urllib3.disable_warnings(

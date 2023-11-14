@@ -10,7 +10,7 @@ and I have not yet worked through that
 """
 from pyVmomi import vim
 from pyVim.task import WaitForTask
-from tools import pchelper
+from ..tools import pchelper
 
 
 def add_disk(vm, disk_size, disk_type):

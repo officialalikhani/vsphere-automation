@@ -1,7 +1,7 @@
 import sys
 from pyVmomi import vim
 from pyVim.task import WaitForTask
-from tools import pchelper
+from ..tools import pchelper
 
 
 def create_vm(si, vm_name, datacenter_name, host_ip, datastore_name=None):

@@ -1,5 +1,5 @@
 from pyVmomi import vim
-from tools import pchelper
+from ..tools import pchelper
 
 
 def add_nic(si, vm, network_name):

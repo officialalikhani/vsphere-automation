@@ -1,5 +1,5 @@
 from pyVmomi import vim, vmodl
-from samples.build.tools.tasks import wait_for_tasks
+from ..tools.tasks import wait_for_tasks
 
 
 def main(si, vm_name):

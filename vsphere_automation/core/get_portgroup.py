@@ -1,4 +1,4 @@
-from tools import pchelper
+from ..tools import pchelper
 from pyVmomi import vmodl, vim
 
 

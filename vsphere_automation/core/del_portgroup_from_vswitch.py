@@ -1,4 +1,3 @@
-import sys
 from pyVmomi import vim
 
 

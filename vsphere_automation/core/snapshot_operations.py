@@ -1,5 +1,5 @@
 import sys
-from tools import pchelper
+from ..tools import pchelper
 from pyVmomi import vim
 from pyVim.task import WaitForTask
 

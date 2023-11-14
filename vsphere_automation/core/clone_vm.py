@@ -2,8 +2,8 @@
 Clone a VM from template example
 """
 from pyVmomi import vim
-from tools import pchelper
-from add_nic_to_vm import add_nic
+from ..tools import pchelper
+from .add_nic_to_vm import add_nic
 
 
 def wait_for_task(task):
